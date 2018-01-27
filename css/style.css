@@ -9,9 +9,21 @@ nav {
   background-color: white;
 }
 
+#pic {
+  width: 300px;
+margin-left: 20px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
 #describe {
 
   height: 450px;
+}
+
+#last-one {
+  margin-left: 150px;
+  width: 810px;
 }
 
 #headpage {
