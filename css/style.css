@@ -1,0 +1,38 @@
+#title {
+  height:600px;
+  background-image: url("../img/home_header_bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+nav {
+  background-color: white;
+}
+
+#describe {
+
+  height: 450px;
+}
+
+#headpage {
+margin-top: 200px;
+letter-spacing: 5px;
+color: white;
+font-weight: 600;
+}
+
+#slogan {
+  letter-spacing: 10px;
+  color: white;
+  font-weight: 600;
+  margin-left: 450px;
+}
+ p {
+   width: 350px;
+   text-align: center;
+ }
+
+.jumbotron .jumbotron-fluid .bg-warning {
+
+  background-color:
+}
