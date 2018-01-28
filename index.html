@@ -10,17 +10,17 @@
     </head>
 <body>
 
-<div class="container-fluid fixed-top bg-light" width:"100%">
+<div class="container-fluid sticky-top bg-white" id="navi">
   <nav class="nav navbar-expand-lg justify-content-center">
     <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
       </li>
 <li class="nav-item">
-  <a class="nav-link">Gallery</a>
+  <a class="nav-link" href="#">Gallery</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="#">Blog</a>
+  <a class="nav-link" href="project seperate/index.html">Blog</a>
 </li>
 <li class= "nav-item">
   <a class="nav-link" href="#">Contact</a>
@@ -31,10 +31,12 @@
 <br/>
 <br/>
 
-    <div class="jumbotron jumbotron-fluid justify-content-center" id="title">
-      <h1 class="text-center display-4"  id="headpage" >MONUMENT</h1>
+    <div class="jumbotron justify-content-center" id="title">
+      <div class="container-fluid">
+      <h1 class="text-center"  id="headpage">MONUMENT</h1>
       <p  class="text-center"  id="slogan">A Lifestyle Magazine</p>
     </div>
+  </div>
 
     <br/>
     <br/>
@@ -44,28 +46,26 @@
     <br/>
     <br/>
 
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-center">
       <div class="row">
 
 <div class="col">
-<img src="img/article_1.jpg" alt="cacti">
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<button type="submit">Learn More</button>
+<img class="img-fluid"src="img/article_1.jpg" alt="cacti">
+ <p id="pg-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<button type="button" class="btn btn-outline-primary">Learn More</button>
 </div>
 
 <div class"col">
   <img src="img/article_2.jpg">
-  <div class="container-fluid">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br/> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<button type="submit">Learn More</button>
-</div>
+  <p id="pg-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<button type="button" class="btn btn-outline-primary">Learn More</button>
 </div>
 
 
 <div class="col">
   <img src="img/article_3.jpg">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<button type="submit">Learn More</button>
+  <p id="pg-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<button type="button" class="btn btn-outline-primary">Learn More</button>
 </div>
 
 </div>
@@ -99,27 +99,46 @@
 
   <div class="col">
 <img class="img-fluid" src="img/gallery_1.jpg" id="pic">
-<img class="img-fluid" src="img/gallery_2.jpg" id="pic">
-<img class="img-fluid" src="img/gallery_3.jpg" id="pic">
+<img class="img-fluid" src="img/gallery_4.jpg" id="pic">
+<img class="img-fluid" src="img/gallery_5.jpg" id="pic">
 </div>
 
 </div>
-  <div>
+</div>
 
 <div class="container-fluid justify-content-center">
   <div class="row">
 
     <div class="col">
-      <img class="img-fluid" src="img/gallery_4.jpg" id="pic">
+      <img class="img-fluid" src="img/gallery_3.jpg" id="pic">
       <img class="img-fluid" src="img/gallery_5.jpg" id="pic">
       <img class="img-fluid" src="img/gallery_6.jpg" id="pic">
+
+
+
 </div>
 
 </div>
+
+<br/>
+<br/>
+
+<div class="container-fluid">
+<form class="text-center" action="" method="get">
+<h1>Leave A Comment</h1>
+
+<input class="form-group" type="text" placeholder="Name">
+
+<input class="form-group" type="text" placeholder="E-Mail">
+<input class="form-group" type="text" placeholder="Subject"><br/>
+
+<textarea name="name" rows="8" cols="50" placeholder="Comment"></textarea><br/>
+
+<button type="button" class="btn btn-outline-primary">Submit</button>
+<br/>
+
+</form>
 </div>
-
-
-
 
 
 
