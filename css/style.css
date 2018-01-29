@@ -59,6 +59,18 @@ button {
   margin-left: 600px;
 }
 
+@media screen and (min-width:480) {
+
+}
+
+#art-title {
+margin-top: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
 #twit {
 margin-top: 20px;
 margin-left: 25px;
