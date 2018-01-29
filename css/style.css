@@ -1,6 +1,10 @@
 
 
 
+
+
+
+
 #title {
   height:600px;
   background-image: url("../img/home_header_bg.jpg");
@@ -29,7 +33,7 @@ width: 20px;
 }
 
 .form-group {
-  width:100px;
+  width:50px;
   font-family: 'Raleway',sans-serif;
   font-weight: 600;
   border: 2px solid gray;
@@ -37,6 +41,7 @@ width: 20px;
 
 textarea {
   width:78%;
+  height: 100px;
   border: 2px solid gray;
 
 }
@@ -58,15 +63,21 @@ button {
 margin-top: 20px;
 margin-left: 25px;
 }
+
 hr {
-  color: black;
-margin-bottom: 10px;
+  	border-top: 2px solid black;
+    margin-top: 50px;
+}
+
+#last-thing {
+  margin-left:600px;
 }
 
 
+
 #form-two {
-  margin-left: 200px;
-  width:200px;
+  margin-left: 500px;
+  width:300px;
 }
 
 #insta {
@@ -93,11 +104,6 @@ footer {
 
 
 
-
-
-
-
-
 #pic {
   width: 300px;
   padding-right: 0px;
@@ -107,9 +113,6 @@ margin-top: 0px;
 
 }
 
-#pic:hover {
-  width:100px;
-}
 
 #describe {
   font-family: 'Raleway',sans-serif;

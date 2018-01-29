@@ -1,0 +1,190 @@
+header {
+  background-image: url("../img/blog_header_bg.jpg");
+  height: 250px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#main {
+text-align: center;
+padding-top: 125px;
+color: white;
+letter-spacing: 15px;
+font-family: 'Raleway', sans-serif;
+}
+
+.begin {
+  margin-top: 75px;
+margin-left: 150px;
+font-family:'Raleway';
+font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 200px;
+color: gray;
+font-family: 'Raleway',sans-serif;
+font-weight: 600;
+}
+
+
+li {
+
+  display: inline;
+  text-align: center;
+
+}
+
+
+ .navbar {
+   text-decoration: none;
+   position: sticky;
+   top: 0px;
+   background-color: white;
+   height: 50px;
+   padding-top: 10px;
+   font-family: 'Raleway',sans-serif;
+   font-weight: 600;
+ }
+
+ .navbar:hover {
+   background-color: aqua;
+ }
+
+img {
+   height:350px;
+   width:500px;
+
+}
+
+#ol-list {
+  text-align: left;
+  list-style-type: circle;
+}
+
+button:hover {
+
+  background-color: gray;
+}
+
+
+.about {
+  display: inline-flex;
+  flex-direction: column;
+float: right;
+justify-content:  center;
+margin-right: 75px;
+margin-left: 75px;
+font-family: 'Raleway', sans-serif;
+font-weight: 600;
+}
+
+.img-one{
+ width:200px;
+ height: 200px;
+
+
+}
+
+.blog-one {
+  margin-left: 150px;
+  margin-top: 75px;
+
+}
+
+form {
+margin-top: 75px;
+text-align: center;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+}
+
+input {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+  border: 2px solid gray;
+  width: 500px;
+}
+
+#butt {
+margin-left: 75px;
+  width: 150px;
+  margin-top: 50px;
+  text-decoration: none;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+#root {
+  text-align: center;
+  display: inline;
+  margin-left: 600px;
+  margin-top: 500px;
+}
+
+#twit {
+
+}
+
+#insta {
+  margin-left: 20px;
+}
+
+#face {
+margin-right: 20px;
+
+}
+
+button {
+  font-family: 'Raleway',sans-serif;
+  font-weight: 600;
+text-decoration: none;
+  width:1000px;
+  background-color: white;
+  display: inline;
+}
+
+hr {
+
+  margin-top: 75px;
+}
+
+#footer-in {
+margin-left: 400px;
+width: 200px;
+
+}
+
+footer {
+margin-top: 100px;
+height: 250px;
+background-color: aqua;
+}
+
+textarea {
+margin-top: 20px;
+  width: 1000px;
+  border: 2px solid gray;
+}
+
+
+
+#p-first {
+
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  width:400px;
+  display: inline-block;
+}
+
+p {
+  width:500px;
+}
+
+
+.blog-two {
+margin-left: 150px;
+}
