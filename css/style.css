@@ -58,10 +58,16 @@ button {
 #face {
   margin-left: 600px;
 }
+ @media screen and (min-width:1024px) {
 
-@media screen and (min-width:480) {
+ul {
+text-align: left;
+display: flex;
+justify-content: flex-start;
 
 }
+
+ }
 
 #art-title {
 margin-top: 10px;
@@ -146,16 +152,24 @@ font-family: 'Raleway',sans-serif;
 
 }
 
+@media screen and (min-width: 1024px) {
+
+
+}
+
+
+
+
 .text-center .display-6 {
   font-family: 'Raleway',sans-serif;
   font-weight: 600;
 }
 
 #slogan {
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   color: white;
-  font-weight: 700;
-  margin-left: 475px;
+  font-weight: 600;
+  margin-left: 75px;
   font-family: 'Raleway',sans-serif;
 
 }
