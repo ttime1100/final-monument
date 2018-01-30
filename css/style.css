@@ -9,6 +9,7 @@
   height:600px;
   background-image: url("../img/home_header_bg.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -151,11 +152,6 @@ font-weight: 600;
 font-family: 'Raleway',sans-serif;
 
 }
-
-
-
-
-
 
 .text-center .display-6 {
   font-family: 'Raleway',sans-serif;
